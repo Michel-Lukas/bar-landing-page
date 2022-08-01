@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Prompt');
 
 body {
     background-color: #eae8e3;
@@ -36,6 +37,7 @@ body {
 }
 
 .navbar {
+    margin-top: 1.5rem;
     position: sticky;
     display: flex;
     flex-direction: row;
@@ -58,7 +60,7 @@ body {
     font-size: 1.5rem;
     display: flex;
     flex-direction: row;
-    width: 20%;
+    width: 28%;
     justify-content: space-between;
     cursor: pointer;
 }
@@ -66,4 +68,60 @@ body {
 .navbar-items > *:hover {
     transform: scale(1.05);
     color: #efba30;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.card {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 30px 40px -20px hsl(229, 6%, 66%);
+    padding: 2rem;
+    width: 30%;
+    height: 40vh;
+    margin-inline: 1rem;
+}
+
+.card-title {
+    font-size: 2.15rem;
+}
+
+.card-p {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.5rem;
+}
+
+.card-img {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+    margin: .5rem;
+}
+
+.border-red {
+    border-top: solid 3px #ff5555;
+}
+
+.border-blue {
+    border-top: solid 3px #55a4ff;
+}
+
+.border-purple{
+    border-top: solid 3px #d555ff;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem
 }

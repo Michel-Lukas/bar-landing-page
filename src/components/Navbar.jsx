@@ -21,6 +21,10 @@ function Navbar() {
                     </div>
 
                     <div className="condensed uppercase">
+                        Gallery
+                    </div>
+
+                    <div className="condensed uppercase">
                         About
                     </div>
 
