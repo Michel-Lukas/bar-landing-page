@@ -146,15 +146,15 @@ function App() {
                     <div className="about-address">
                        <div className="address">
                            <div>
-                               16515
+                               Postal Code
                            </div>
 
                            <div>
-                               Oranienburg
+                               City
                            </div>
 
                            <div style={{ marginBottom: "1.5rem"}}>
-                               Germany
+                               Country
                            </div>
                        </div>
 
