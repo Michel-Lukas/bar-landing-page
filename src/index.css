@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body {
+    background-color: #eae8e3;
+    font-family: "Dosis";
+    scroll-behavior: smooth;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.condensed {
+    letter-spacing: .05rem;
+}
+
+.spacing-wide {
+    letter-spacing: .3rem;
+}
+
+.navbar-start {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-title {
+    margin-left: .5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    align-self: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    min-height: 3rem;
+}
+
+.navbar {
+    margin-top: 1.5rem;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icon {
+    background: #af7b73;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    min-height: 3rem;
+    display: flex;
+}
+
+.navbar-items {
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.navbar-items > *:hover {
+    transform: scale(1.05);
+    color: #efba30;
+}
+
+.section {
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 100vh;
+}
+
+.card {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 30px 40px -20px hsl(229, 6%, 66%);
+    padding: 2rem;
+    width: 30%;
+    height: 40vh;
+    margin-inline: 1rem;
+}
+
+.card-title {
+    font-size: 2.15rem;
+}
+
+.card-p {
+    color: hsl(229, 6%, 66%);
+    font-size: 1.5rem;
+}
+
+.card-img {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 25%;
+    margin: .5rem;
+}
+
+.border-red {
+    border-top: solid 3px #ff5555;
+}
+
+.border-blue {
+    border-top: solid 3px #55a4ff;
+}
+
+.border-purple{
+    border-top: solid 3px #d555ff;
+}
+
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3rem
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    height: 15rem;
+}
+
+.gallery-img {
+    object-fit: cover;
+    margin: .25rem;
+    width: 24%;
+    height: auto;
+}
+
+.section-about {
+    margin-inline: auto;
+    width: 95vw;
+    height: 40vh;
+}
+
+.about-title {
+    margin-inline: auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.about-body {
+    display: flex;
+    margin-top: 1rem;
+    flex-flow: row;
+    font-weight: 600;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+.about-address {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+    align-content: space-between;
+    height: 100%;
+}
+
+.about-open {
+    display: flex;
+    flex-flow: column;
+    margin-right: .5rem;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
