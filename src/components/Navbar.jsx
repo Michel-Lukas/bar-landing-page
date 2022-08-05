@@ -1,4 +1,5 @@
 import {FaGlassMartiniAlt} from "react-icons/fa";
+import { Link } from 'react-scroll';
 
 function Navbar() {
     return (
@@ -17,19 +18,21 @@ function Navbar() {
 
                 <div className="navbar-items">
                     <div className="condensed uppercase">
-                        Menu
+                        <Link to="menu" smooth="true" duration={500}>
+                            Menu
+                        </Link>
                     </div>
 
                     <div className="condensed uppercase">
-                        Gallery
+                        <Link to="pictures" smooth="true" duration={500}>
+                            Gallery
+                        </Link>
                     </div>
 
                     <div className="condensed uppercase">
-                        About
-                    </div>
-
-                    <div className="condensed uppercase">
-                        Contact
+                        <Link to="about" smooth="true" duration={500}>
+                            About
+                        </Link>
                     </div>
                 </div>
             </div>
